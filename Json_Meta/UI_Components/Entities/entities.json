@@ -1,0 +1,44 @@
+[
+    {
+        "id": "icon_search_001",
+        "entity_id": "ebrdlogo_logo_1001",
+        "name": "logo",
+        "label":"CAM",
+        "imageUrl": "https://example.com/icons/search.png",
+        "disabled": false,
+        "hidden": false,
+        "description": "Logo icon",
+        "version": "1.0",
+        "hint": "Application Logo",
+        "tool_tips": "This is the application logo",
+        "customAttributes": {
+            "class": "icon-class"
+        },
+        "customClasses": {
+            "icon-class": {
+                "additionalProp1": "value1",
+                "additionalProp2": "value2"
+            }
+        }
+    },
+    {
+        "id":"btn_home_1001",
+        "entity_id": "ebrdbtn_home_1001",
+        "type": "input",
+        "subType": "button",
+        "label": "Submit",
+        "action": "submitForm",
+        "style": "primary",
+        "disabled": false,
+        "hidden": false,
+        "description": "Submit button to submit the form",
+        "version": "1.0",
+        "hint": "Click to submit the form",
+        "tool_tips": "Click this button to submit the form",
+        "customAttributes": {
+            "class": "btn btn-primary",
+            "data-toggle": "tooltip",
+            "title": "Click to submit"
+        }
+    }
+]

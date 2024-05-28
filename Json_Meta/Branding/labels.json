@@ -1,0 +1,21 @@
+{
+    "labels":{
+        "LBL_GBRD_1000":"CAM",
+        "LBL_EBRD_1000":"CAM"
+    },
+    "hints":{
+        "HNT_EBRD_1000":"Application Logo",
+        "HNT_EBRD_1001":"Application Logo"
+    },
+    "descriptions":{
+        "DSC_EBRD_1000":"This is the Description",
+        "DSC_EBRD_1001":"This is the Description"
+    },
+    "toolTips":{
+        "TT_EBRD_1000":"This is the application logo",
+        "TT_EBRD_1001":"This is the application logo"
+    },
+    "images":{
+        "IMG_URL_1000":""
+    }
+}

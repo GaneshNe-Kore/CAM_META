@@ -1,0 +1,301 @@
+{
+    "buttons": [
+        {
+            "entity_id": "btn_susbmit_001",
+            "type": "input",
+            "subType": "button",
+            "label": "Submit",
+            "action": "submitForm",
+            "style": "primary",
+            "disabled": false,
+            "hidden": false,
+            "description": "Submit button to submit the form",
+            "version": "1.0",
+            "hint": "Click to submit the form",
+            "tool_tips": "Click this button to submit the form",
+            "customAttributes": {
+                "class": "btn btn-primary",
+                "data-toggle": "tooltip",
+                "title": "Click to submit"
+            }
+        },
+        {
+            "entity_id": "btn_cancel_002",
+            "type": "input",
+            "subType": "button",
+            "label": "Cancel",
+            "action": "resetForm",
+            "style": "secondary",
+            "disabled": false,
+            "hidden": false,
+            "description": "Cancel button to reset the form",
+            "version": "1.0",
+            "hint": "Click to cancel the form",
+            "tool_tips": "Click this button to cancel the form",
+            "customAttributes": {
+                "class": "btn btn-secondary",
+                "data-toggle": "tooltip",
+                "title": "Click to cancel"
+            }
+        }
+    ],
+    "input_texts": [
+        {
+            "entity_id": "text_username_001",
+            "type": "input",
+            "subType": "text",
+            "label": "User Name",
+            "placeholder": "Enter your username",
+            "required": true,
+            "minLength": 5,
+            "disabled": false,
+            "hidden": false,
+            "read_only": false,
+            "description": "Input field for entering the username",
+            "version": "1.0",
+            "hint": "Please enter your username",
+            "tool_tips": "Enter your username here",
+            "customAttributes": {
+                "class": "form-control"
+            }
+        },
+        {
+            "entity_id": "text_password_002",
+            "type": "input",
+            "subType": "password",
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "required": true,
+            "minLength": 8,
+            "disabled": false,
+            "hidden": false,
+            "read_only": false,
+            "description": "Input field for entering the password",
+            "version": "1.0",
+            "hint": "Please enter your password",
+            "tool_tips": "Enter your password here",
+            "customAttributes": {
+                "class": "form-control",
+                "autocomplete": "off"
+            }
+        }
+    ],
+    "radios": [
+        {
+            "entity_id": "radio_gender_001",
+            "label": "Gender",
+            "type": "input",
+            "subType": "radio",
+            "options": [
+                {
+                    "value": "male",
+                    "label": "Male"
+                },
+                {
+                    "value": "female",
+                    "label": "Female"
+                }
+            ],
+            "disabled": false,
+            "hidden": false,
+            "description": "Radio buttons for selecting gender",
+            "version": "1.0",
+            "hint": "Please select your gender",
+            "tool_tips": "Select your gender from the options provided",
+            "customAttributes": {
+                "class": "form-check-input"
+            }
+        }
+    ],
+    "selects": [
+        {
+            "entity_id": "select_country_001",
+            "type": "input",
+            "subType": "select",
+            "label": "Country",
+            "options": [
+                {
+                    "value": "us",
+                    "label": "United States"
+                },
+                {
+                    "value": "ca",
+                    "label": "Canada"
+                }
+            ],
+            "required": true,
+            "disabled": false,
+            "hidden": false,
+            "description": "Dropdown for selecting country",
+            "version": "1.0",
+            "hint": "Please select your country",
+            "tool_tips": "Choose your country from the dropdown",
+            "customAttributes": {
+                "class": "form-select"
+            }
+        }
+    ],
+    "checkboxes": [
+        {
+            "entity_id": "checkbox_terms_001",
+            "type": "input",
+            "subType": "checkboxe",
+            "label": "Accept Terms and Conditions",
+            "required": true,
+            "disabled": false,
+            "hidden": false,
+            "description": "Checkbox for accepting terms and conditions",
+            "version": "1.0",
+            "hint": "Please accept the terms and conditions",
+            "tool_tips": "Check this box to accept the terms and conditions",
+            "customAttributes": {
+                "class": "form-check-input"
+            }
+        }
+    ],
+    "dates": [
+        {
+            "entity_id": "date_dob_001",
+            "type": "input",
+            "subType": "date",
+            "label": "Date of Birth",
+            "required": true,
+            "min": "1900-01-01",
+            "max": "2023-12-31",
+            "disabled": false,
+            "hidden": false,
+            "description": "Input field for entering date of birth",
+            "version": "1.0",
+            "hint": "Please enter your date of birth",
+            "tool_tips": "Enter your date of birth in the format YYYY-MM-DD",
+            "customAttributes": {
+                "class": "form-control"
+            }
+        }
+    ],
+    "emails": [
+        {
+            "entity_id": "email_address_001",
+            "type": "input",
+            "subType": "email",
+            "label": "Email Address",
+            "placeholder": "Enter your email",
+            "required": true,
+            "disabled": false,
+            "hidden": false,
+            "description": "Input field for entering email address",
+            "version": "1.0",
+            "hint": "Please enter your email address",
+            "tool_tips": "Enter your email address here",
+            "customAttributes": {
+                "class": "form-control"
+            }
+        }
+    ],
+    "numbers": [
+        {
+            "entity_id": "number_age_001",
+            "type": "input",
+            "subType": "number",
+            "label": "Age",
+            "placeholder": "Enter your age",
+            "required": true,
+            "min": 0,
+            "max": 120,
+            "disabled": false,
+            "hidden": false,
+            "description": "Input field for entering age",
+            "version": "1.0",
+            "hint": "Please enter your age",
+            "tool_tips": "Enter your age in years",
+            "customAttributes": {
+                "class": "form-control"
+            }
+        }
+    ],
+    "passwords": [
+        {
+            "entity_id": "password_password_001",
+            "type": "input",
+            "subType": "password",
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "required": true,
+            "minLength": 8,
+            "disabled": false,
+            "hidden": false,
+            "description": "Input field for entering password",
+            "version": "1.0",
+            "hint": "Please enter your password",
+            "tool_tips": "Enter your password here",
+            "customAttributes": {
+                "class": "form-control"
+            }
+        }
+    ],
+    "text_areas": [
+        {
+            "entity_id": "text_description_001",
+            "type": "input",
+            "subType": "text_area",
+            "label": "Description",
+            "placeholder": "Enter description",
+            "disabled": false,
+            "hidden": false,
+            "description": "Input field for entering description",
+            "version": "1.0",
+            "hint": "Please enter description",
+            "tool_tips": "Enter description here",
+            "customAttributes": {
+                "class": "form-control",
+                "rows": 3
+            }
+        }
+    ],
+    "icons": [
+        {
+            "id": "icon_search_001",
+            "name": "search",
+            "imageUrl": "https://example.com/icons/search.png",
+            "size": "lg",
+            "style": "primary",
+            "disabled": false,
+            "hidden": false,
+            "description": "Search icon",
+            "version": "1.0",
+            "hint": "Click to search",
+            "tool_tips": "Click this icon to search",
+            "customAttributes": {
+                "class": "icon-class"
+            },
+            "customClasses": {
+                "icon-class": {
+                    "additionalProp1": "value1",
+                    "additionalProp2": "value2"
+                }
+            }
+        },
+        {
+            "id": "icon_user_002",
+            "name": "user",
+            "imageUrl": "https://example.com/icons/user.png",
+            "size": "md",
+            "style": "secondary",
+            "disabled": false,
+            "hidden": false,
+            "description": "User icon",
+            "version": "1.0",
+            "hint": "User icon",
+            "tool_tips": "This icon represents a user",
+            "customAttributes": {
+                "class": "icon-class"
+            },
+            "customClasses": {
+                "icon-class": {
+                    "additionalProp1": "value1",
+                    "additionalProp2": "value2"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "group_id": "GRB_BRD_1000",
+        "label_id": "",
+        "desc_id": "",
+        "hint_id": "",
+        "toolTip_id": "",
+        "code": "header",
+        "category": "branding",
+        "parent_group": "",
+        "version": "1.0",
+        "repeatable": false,
+        "is_tab": false,
+        "automated_use_case": false,
+        "use_case_id": "",
+        "parent_use_case_id": "",
+        "identifier": "grbrd_1001",
+        "is_main_uc": false,
+        "container_group_id": "",
+        "entities": []
+    },
+    {
+        "group_id": "GRB_BRD_1001",
+        "label_id": "LBL_GBRD_1000",
+        "desc_id": "",
+        "hint_id": "",
+        "toolTip_id": "",
+        "code": "header",
+        "category": "branding",
+        "parent_group": "GRB_BRD_1000",
+        "version": "1.0",
+        "repeatable": false,
+        "is_tab": false,
+        "automated_use_case": false,
+        "use_case_id": "",
+        "parent_use_case_id": "",
+        "identifier": "GRB_BRD_1000",
+        "is_main_uc": false,
+        "container_group_id": "",
+        "entities": [
+            "ENT_BRD_1000",
+            "ENT_BRD_1001"
+        ]
+    }
+]

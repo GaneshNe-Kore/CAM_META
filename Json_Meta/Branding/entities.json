@@ -1,0 +1,46 @@
+[
+    {
+        "id": "ICON_LOGO_1000",
+        "entity_id": "ENT_BRD_1000",
+        "label_id": "LBL_EBRD_1000",
+        "desc_id": "DSC_EBRD_1000",
+        "hint_id": "HNT_EBRD_1000",
+        "toolTip_id": "TT_EBRD_1000",
+        "imageUrl": "IMG_URL_1000",
+        "name": "logo",
+        "disabled": false,
+        "hidden": false,
+        "version": "1.0",
+        "customAttributes": {
+            "class": "icon-class"
+        },
+        "customClasses": {
+            "icon-class": {
+                "additionalProp1": "value1",
+                "additionalProp2": "value2"
+            }
+        }
+    },
+    {
+        "id":"BTN_LOGO_1000",
+        "entity_id": "ENT_BRD_1001",
+        "label_id": "LBL_EBRD_1001",
+        "desc_id": "DSC_EBRD_1001",
+        "hint_id": "HNT_EBRD_1001",
+        "toolTip_id": "TT_EBRD_1001",
+        "imageUrl": "IMG_URL_1001",
+        "type": "input",
+        "subType": "button",
+        "label": "Submit",
+        "action": "submitForm",
+        "style": "primary",
+        "disabled": false,
+        "hidden": false,
+        "version": "1.0",
+        "customAttributes": {
+            "class": "btn btn-primary",
+            "data-toggle": "tooltip",
+            "title": "Click to submit"
+        }
+    }
+]

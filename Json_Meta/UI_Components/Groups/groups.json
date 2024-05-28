@@ -1,0 +1,23 @@
+[
+    {
+        "group_id": "header_group_001",
+        "label_id": "Header",
+        "code": "header",
+        "category": "section",
+        "parent_group": "",
+        "version": "1.0",
+        "repeatable": false,
+        "description": "Header section of the template",
+        "is_tab": false,
+        "automated_use_case": false,
+        "use_case_id": "",
+        "parent_use_case_id": "",
+        "identifier": "",
+        "is_main_uc": false,
+        "container_group_id": "",
+        "entities": [
+            "logo_entity_001",
+            "navigation_entity_001"
+        ]
+    }
+]
